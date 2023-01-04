@@ -6,7 +6,7 @@ import java.util.List;
 public class 合并区间56 {
     public static void main(String[] args) {
         Solution56 s56=new Solution56();
-        int[][] ints={{1,4},{0,4}};
+        int[][] ints={{2,4},{3,6}};
         int[][] res=s56.merge(ints);
         for(int i=0;i<res.length;i++){
             for(int j=0;j<res[0].length;j++){
